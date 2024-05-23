@@ -7,7 +7,6 @@ html {
 body {
   background-color: white;
   color: white;
-  overflow: hidden;
 }
 
 section {
@@ -15,6 +14,7 @@ section {
   width: 100vw;
   scroll-snap-align: center;
   overflow: hidden;
+  background: white;
 }
 
 @mixin mobile {
