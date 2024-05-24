@@ -1,9 +1,86 @@
 .contact-container {
   width: 100%;
-height: 100%;
-position: relative;
-display: flex;
-align-items: center;
-justify-content: center;
-overflow: hidden;
+  max-width: 1280px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 48px 48px;
+
+  .top-container,
+  .mid-container,
+  .bottom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    top: 60px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .header-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-links a {
+    color: rgb(187, 175, 175);
+    text-decoration: none;
+  }
+  .email {
+    font-size: 50px;
+    font-weight: 200;
+  }
+  .divider {
+    border-top: 3px solid #bbb;
+  }
+  .address-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%
+  }
+  .address {
+    max-width: 120px;
+  }
+  .social-contact {
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+    a {
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+  }
+  .scan-code {
+    width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  padding: 32px;
+  background-color: white;
+  }
+  h{
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+  }
+  h1{
+    font-size: 100px;
+    font-weight: 600;
+    color: white;
+    span{
+      font-size: 64px;
+      font-weight: 300;
+      margin-bottom: 2px;
+      margin-left: 2px;
+    }
+  }
+  p {
+    font-size: 10px;
+    color:#bbb
+  }
 }

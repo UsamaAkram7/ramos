@@ -20,6 +20,13 @@ section {
   overflow: hidden;
   background: white;
 }
+.last-section {
+  height: 70vh;
+  width: 90vw;
+  scroll-snap-align: center;
+  overflow: hidden;
+  background: black;
+}
 
 @mixin mobile {
   @media (max-width: 738px) {

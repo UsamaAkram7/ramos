@@ -32,7 +32,7 @@ function App() {
         <section id="GetStarted">
           <GetStarted />
         </section>
-        <section id='Contact'>
+        <section className='last-section' id='Contact'>
           <Contact />
         </section>
         {/* <section id="Services">
