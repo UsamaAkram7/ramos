@@ -5,6 +5,9 @@ import Dashboard from './components/Dashboard/dashboard.jsx'
 import Documents from './components/Documents/documents.jsx'
 import GetStarted from './components/Get-Started/start.jsx'
 import Contact from './components/Contact/contact.jsx'
+import Reports from './components/Reports/reports.jsx'
+import History from './components/History/history.jsx'
+import Settings from './components/Settings/settings.jsx'
 
 function App() {
   return (
@@ -14,8 +17,17 @@ function App() {
           <Navbar />
           <Dashboard />
         </section>
+        <section id='Reports'>
+          <Reports />
+        </section>
         <section id='Documents'>
           <Documents />
+        </section>
+        <section id='History'>
+          <History />
+        </section>
+        <section id='Settings'>
+          <Settings />
         </section>
         <section id="GetStarted">
           <GetStarted />

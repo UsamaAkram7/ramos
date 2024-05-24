@@ -5,14 +5,17 @@ html {
 
 
 body {
-  background-color: white;
-  color: white;
+  background-color: lightgray;
+  color: black;
   overflow-x: hidden;
+  font-family: "Noto Sans Elymaic", sans-serif;
+  display: flex;
+  align-items: center;
 }
 
 section {
   height: 100vh;
-  width: 100vw;
+  width: 90vw;
   scroll-snap-align: center;
   overflow: hidden;
   background: white;
