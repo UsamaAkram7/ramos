@@ -13,44 +13,45 @@ function App() {
   return (
     <>
       <div>
-        <section id="Dashboard">
+        <section id="navbar">
           <Navbar />
-          <Dashboard />
+        </section>
+        <section id="Dashboard">
+          <div className='container'>
+            <Dashboard />
+          </div>
         </section>
         <section id='Reports'>
-          <Reports />
+          <div className='container'>
+            <Reports />
+          </div>
         </section>
         <section id='Documents'>
-          <Documents />
+          <div className='container'>
+            <Documents />
+          </div>
         </section>
         <section id='History'>
-          <History />
+          <div className='container'>
+            <History />
+          </div>
         </section>
         <section id='Settings'>
-          <Settings />
+          <div className='container'>
+            <Settings />
+          </div>
         </section>
         <section id="GetStarted">
-          <GetStarted />
+          <div className='container'>
+            <GetStarted />
+          </div>
         </section>
-        <section className='last-section' id='Contact'>
-          <Contact />
+
+        <section className='footer' id='Contact'>
+          <div className='container'>
+            <Contact />
+          </div>
         </section>
-        {/* <section id="Services">
-        <Parallax type="services" />
-      </section>
-      <section>
-        <Services />
-      </section>
-      <section id="Portfolio">
-        <Parallax type="portfolio" />
-      </section>
-      <Portfolio />
-      <section id="Contact">
-        <Contact />
-      </section> */}
-        {/* Framer Motion Crash Course */}
-        {/* <Test/>
-    <Test/> */}
       </div>
     </>
   )

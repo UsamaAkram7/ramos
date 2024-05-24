@@ -14,15 +14,16 @@ const Contact = () => {
         </div>
         <div className="email">hello@ramos.com</div>
       </div>
+
       <div className="mid-container">
         <div className="address-container">
           <div className="address">
-            <h>Warrensvile Heights</h>
-            <p>14418 Vineyard Drive NC. 44128</p>
+            <h5>Warrensvile Heights</h5>
+            <p>14418 Vineyard Drive NC. <br /> 44128</p>
           </div>
           <div className="address">
-            <h>Saint louis</h>
-            <p>1366 Penn Street 16801</p>
+            <h5>Saint louis</h5>
+            <p>1366 Penn Street <br /> 16801</p>
           </div>
         </div>
         <div className="social-contact">
@@ -31,8 +32,9 @@ const Contact = () => {
           <a href="#">Facebook</a>
         </div>
       </div>
+
       <div className="bottom-container">
-        <h1>Ramos <span>®</span></h1>
+        <h1>Ramos <sup>®</sup></h1>
         <p>Privacy Policy</p>
         <p>License agreement</p>
         <img className="scan-code" src='/qr-code.png' />
