@@ -47,7 +47,7 @@ function App() {
           </div>
         </section>
 
-        <section className='footer' id='Contact'>
+        <section id='Contact'>
           <div className='container'>
             <Contact />
           </div>

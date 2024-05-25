@@ -1,13 +1,8 @@
 .contact-container {
-  width: 100%;
-  max-width: 1280px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  margin: 48px 48px;
+  background: #000000;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 1px 48px;
 
   .top-container,
   .mid-container,
@@ -56,7 +51,7 @@
   .social-contact {
     display: flex;
     flex-direction: column;
-    margin-right: 24px;
+    text-align: right;
     a {
       color: white;
       font-size: 18px;
@@ -68,7 +63,7 @@
     width: 60px;
   height: 60px;
   border-radius: 12px;
-  padding: 32px;
+  padding: 24px;
   background-color: white;
   }
   h{
@@ -93,7 +88,10 @@
   }
 }
 
-
+.bottom-container {
+  margin-bottom: 36px;
+}
 .bottom-container sup {
   margin-left: -26px;
+  font-size: 42px;
 }
