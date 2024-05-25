@@ -1,20 +1,15 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./history.scss";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const History = () => {
+  useEffect(() => {
+    AOS.init({duration: 2000})
+  }, [])
   return (
     <div className="history-container">
-      <img className='logo-icon' src=''></img>
-        <h1>Turning actions into real ideas</h1>
-        <div>
-        <li>Instant Insights</li>
-        <li>AI technology</li>
-        <li>Easy integration</li>
-        </div>
-        <div>
-            gifs
-        </div>
-        <h3>Ramos</h3>
+      <img className='history-image-container' data-aos='zoom-in' src='/history-layout1.PNG'></img>
    </div>
   );
 };

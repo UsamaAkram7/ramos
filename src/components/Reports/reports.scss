@@ -2,22 +2,23 @@
   background: #fafafa;
   border-radius: 60px;
   padding: 60px;
-
-  h2 {
-    font-size: 36px;
-    margin-bottom: 30px;
-    font-weight: normal;
-    margin-right: 180px;
-  }
+  display: flex;
+  flex-direction: column;
 
   .tagline {
     width: 300px;
     margin: auto;
     text-align: center;
   }
-
 }
-
+.report-inner-container {
+  background-color: #fff;
+  display: flex;
+  border-radius: 30px;
+  border: solid 1px #ccc;
+  box-shadow: 0 20px 20px -10px rgba(0, 0, 0, 0.25);
+  padding: 30px 0px 0px 30px;
+}
 .report-top-block {
   display: flex;
   align-content: space-between;
@@ -33,13 +34,6 @@
   flex: 40%;
 }
 
-.box1 {
-  background-color: #ffffff;
-  border-radius: 30px;
-  border: solid 1px #ccc;
-  box-shadow: 0 20px 20px -10px rgba(0,0,0,0.25);
-  padding: 50px;
-}
 
 .box2 {
   background-color: #000000;
@@ -47,7 +41,22 @@
   color: #ffffff;
   padding: 50px;
 }
-
+.trans-details{
+  display: flex;
+}
+.profile-details{
+  border: solid 1px #ccc;
+  background-color: #131111;
+  padding: 40px;
+  border-radius: 12px;
+  margin:0px 5px;
+}
+.sale-details{
+  padding: 20px;
+  border-radius: 12px;
+  margin:0px 5px; 
+  background-color: #f6f6f6;
+}
 .report-middle-block {
   display: flex;
   align-content: space-between;
@@ -74,4 +83,51 @@
     font-size: 100px;
     line-height: 80px;
   }
+}
+.setting-btn {
+  background-color: #ffd027;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin-bottom: 50px;
+}
+.one-platform {
+  color: #bdbfc5;
+  padding: 20px 0px 30px 0px;
+  width: 72%;
+}
+.statistics-container{
+
+  width: 100%;
+
+}
+.repo-heading{
+ text-align: center;
+ padding-top: 20px;
+}
+.repo-text{
+text-align: center;
+font-size: 14px;
+color: #ccc;
+padding-top: 20px;
+}
+
+.reports-image-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.reports-image1,
+.reports-image2,
+.reports-image3 {
+  width: 32px;
+  height: 32px;
+}
+.reports-image1 {
+  margin-top: -12px;
+  margin-left: 12px;
+  margin-bottom: 6px;
+}
+.reports-image3 {
+  margin-left: 2px;
 }

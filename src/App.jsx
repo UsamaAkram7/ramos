@@ -31,11 +31,11 @@ function App() {
             <Documents />
           </div>
         </section>
-        {/* <section id='History'>
+        <section id='History'>
           <div className='container'>
             <History />
           </div>
-        </section> */}
+        </section>
         <section id='Settings'>
           <div className='container'>
             <Settings />
