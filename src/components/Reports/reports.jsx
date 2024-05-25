@@ -1,9 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import "./reports.scss";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import useScrollTriggeredCountUp from '../ScrollCounter/scroll.jsx'
 
 const Reports = () => {
+  const ref = useRef(null);
+  const count = useScrollTriggeredCountUp(ref, 43);
   useEffect(() => {
     AOS.init({duration: 2000})
   })
@@ -71,8 +74,8 @@ const Reports = () => {
                 <div className='percentage-info-container'>
                   <img alt='' className="percentage-image" src="/up-arrow.png"></img>
                   14%</div>
-                <div className='statistic-container' data-aos="zoom-in">
-                  43k
+                <div className='statistic-container' ref={ref}>
+                  {count}k
                 </div>
               </div>
             </div>

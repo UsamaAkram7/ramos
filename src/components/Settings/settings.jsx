@@ -1,9 +1,12 @@
-import React, { useEffect }from "react";
+import React, { useEffect, useRef }from "react";
 import "./settings.scss";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import useScrollTriggeredCountUp from "../ScrollCounter/scroll";
 
 const Settings = () => {
+  const ref = useRef(null);
+  const count = useScrollTriggeredCountUp(ref, 131);
   useEffect(() => {
     AOS.init({duration: 2000})
   }, [])
@@ -25,7 +28,7 @@ const Settings = () => {
             <div className="right-inner-box">
               <div className="upper-section" >
                 <p data-aos="zoom-in" >Sales revenue</p>
-                <h2 data-aos="zoom-in">$ 131,2K</h2>
+                <h2 ref={ref}>$ {count},2K</h2>
                 <div className="progress-container" data-aos="fade-right">
                   <div className="progress-bar1" />
                   <div className="progress-bar2" />
