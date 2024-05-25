@@ -27,3 +27,25 @@ section {
   background: #000000;
 }
 
+.buttons-container {
+  display: felx;
+  justify-content: center;
+}
+.demo-button,
+.start-button {
+  max-width: 160px;
+  padding: 12px 34px;
+  border: none;
+  border-radius: 12px;
+  font-size: 12px;
+}
+.demo-button {
+  background-color: #eceaea;
+  color: #000000;
+}
+.start-button {
+  background-color: #ff4122;
+  color: #ffffff;
+  margin-left: 8px;
+}
+

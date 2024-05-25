@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./contact.scss";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({duration: 2000})
+  }, [])
+  
   return (
     <div className="contact-container">
       <div className="top-container">
