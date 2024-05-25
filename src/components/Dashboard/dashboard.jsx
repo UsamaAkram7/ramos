@@ -13,9 +13,9 @@ const Dashboard = () => {
 
 
         <div className="top-block">
-          <div data-aos='fade-right'>
-            <div className="text-block">
-              <span className="image-container">
+          <div>
+            <div className="text-block" data-aos='fade-right'>
+              <span className="image-container" data-aos='flip-right'>
                 <img class="image1" src="/thunder.png" />
                 <img class="image2" src="/line-chart.png" />
               </span>
@@ -23,7 +23,7 @@ const Dashboard = () => {
               Analytics
             </div>
 
-            <div className="text-block">that <span>helps</span> you</div>
+            <div className="text-block" data-aos='fade-right'>that <span>helps</span> you</div>
           </div>
 
           <div className="image-container1" data-aos='zoom-in'>

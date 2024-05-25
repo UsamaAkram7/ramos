@@ -39,17 +39,33 @@
   background-color: #000000;
   border-radius: 30px;
   color: #ffffff;
-  padding: 50px;
+  padding: 34px;
+}
+.statistics-details {
+  display: flex;
 }
 .trans-details{
   display: flex;
+  justify-content: center;
+}
+.graph-info-image-container {
+  height: 261px;
+  border-radius: 25px;
 }
 .profile-details{
-  border: solid 1px #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: solid 1px #2f2a2a;
   background-color: #131111;
-  padding: 40px;
+  padding: 16px;
   border-radius: 12px;
-  margin:0px 5px;
+  margin: 16px 4px;
+  p {
+    color: #bdbfc5;
+    font-size: 8px;
+    margin: -9px 0 0 -12px
+  }
 }
 .sale-details{
   padding: 20px;
@@ -84,6 +100,20 @@
     line-height: 80px;
   }
 }
+.percentage-info-container {
+  display: flex;
+  justify-content: center;
+  font-size: 8px;
+  color: #32de84;
+  margin-left: 42px;
+}
+.percentage-image {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #32de84;
+  padding: 4px;
+}
 .setting-btn {
   background-color: #ffd027;
   border: none;
@@ -108,14 +138,22 @@
 .repo-text{
 text-align: center;
 font-size: 14px;
-color: #ccc;
+color: #bdbfc5;;
 padding-top: 20px;
+}
+.statistic-container {
+  font-size: 42px;
+  span {
+    font-size: 12px;
+    margin-left: 6px;
+  }
 }
 
 .reports-image-container {
   display: flex;
   justify-content: center;
   position: relative;
+  margin-top: 8px;
 }
 .reports-image1,
 .reports-image2,
@@ -124,10 +162,10 @@ padding-top: 20px;
   height: 32px;
 }
 .reports-image1 {
-  margin-top: -12px;
   margin-left: 12px;
-  margin-bottom: 6px;
+  margin-top: -6px;
+  margin-bottom: 7px;
 }
 .reports-image3 {
-  margin-left: 2px;
+  margin-left: -4px;
 }
