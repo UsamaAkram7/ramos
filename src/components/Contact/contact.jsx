@@ -7,10 +7,10 @@ const Contact = () => {
   useEffect(() => {
     AOS.init({duration: 2000})
   }, [])
-  
+
   return (
     <div className="contact-container">
-      <div className="top-container">
+      <div className="top-container" data-aos='fade-up'>
         <div className="header-links">
           <a href="#">About</a>
           <a href="#">Why us</a>
@@ -21,7 +21,7 @@ const Contact = () => {
         <div className="email">hello@ramos.com</div>
       </div>
 
-      <div className="mid-container">
+      <div className="mid-container" data-aos='fade-up'>
         <div className="address-container">
           <div className="address">
             <h5>Warrensvile Heights</h5>
@@ -39,7 +39,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="bottom-container">
+      <div className="bottom-container" data-aos='fade-up'>
         <h1>Ramos <sup>®</sup></h1>
         <p>Privacy Policy</p>
         <p>License agreement</p>
