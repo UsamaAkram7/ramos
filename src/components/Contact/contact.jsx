@@ -21,8 +21,8 @@ const Contact = () => {
         <div className="email">hello@ramos.com</div>
       </div>
 
-      <div className="mid-container" data-aos='fade-up'>
-        <div className="address-container">
+      <div className="mid-container">
+        <div className="address-container" data-aos='fade-up'>
           <div className="address">
             <h5>Warrensvile Heights</h5>
             <p>14418 Vineyard Drive NC. <br /> 44128</p>
@@ -32,7 +32,7 @@ const Contact = () => {
             <p>1366 Penn Street <br /> 16801</p>
           </div>
         </div>
-        <div className="social-contact">
+        <div className="social-contact" data-aos='fade-up'>
           <a href="#">LinkedIn</a>
           <a href="#">Instagram</a>
           <a href="#">Facebook</a>
@@ -43,7 +43,7 @@ const Contact = () => {
         <h1>Ramos <sup>®</sup></h1>
         <p>Privacy Policy</p>
         <p>License agreement</p>
-        <img className="scan-code" src='/qr-code.png' />
+        <img className="scan-code" data-aos='fade-up' src='/qr-code.png' />
       </div>
     </div>
   );
